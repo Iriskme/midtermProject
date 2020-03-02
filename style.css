@@ -1,6 +1,26 @@
+body{
+    background-color: #101820ff;
+}
 h1{
     font-size: 100px;
 }
 .p1{
     font-size: 1.in;
+}
+footer{
+    font-size: smaller;
+}
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.navbar-header{
+    margin: 2%;
+}
+ul{
+    font-weight: bold;
+}
+.nav-link{
+    color: white;
 }

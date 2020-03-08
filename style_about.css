@@ -2,25 +2,18 @@ body{
     background-color: #101820ff;
 }
 h1{
-    font-size: 100px;
+    font-family: sans-serif;
+    font-size: 10rem;
+    font-weight: 900;
+    font-style: oblique;
+    color:  #2d2926ff;
+    text-align: center;
+    padding-top: 3rem;
 }
-.p1{
-    font-size: 1.in;
+.header-custom{
+    background-color: #fcbfb1;
+
 }
-footer{
-    font-size: smaller;
-}
-.navbar-nav.navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-}
-.navbar-header{
-    margin: 2%;
-}
-ul{
-    font-weight: bold;
-}
-.nav-link{
-    color: white;
+.h1-about-text{
+    color: #101820ff;
 }

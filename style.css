@@ -1,30 +1,33 @@
+.row{
+  padding-top: 10rem ;
+}
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-color: #0e2433;
+  background-color: #f5f0f0;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+
+header{
+  background-color: #f5f0f0;
+}
 h1{
-  text-align: left;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 3rem;
   line-height: 1cm;
+  text-align: center;
 }
 .font-weight-light{
   margin-top: 10%;
-  font-size: 8rem;
-  color: aliceblue;
+  font-size: 6rem;
+  color: #ff6700;
+  font-family: serif, cursive;
+  font-style: oblique;
 }
-.font-second{
-  color: #fec994;
-}
-.font-third{
-  color: #fed9c9;
-}
-.font-fourth{
-  color: #c1e1d2;
+.font-second .font-third .font-fourth .font-yea{
+  font-family: sans-serif;
+  color: #2d2926ff;
+  font-size: 12px;
 }
 .lead{
   text-align: left;
@@ -34,4 +37,25 @@ h1{
   float: right;
   height: 10rem;
 
+}
+.py-5{
+  background-color: #fec994;
+}
+.socical-media-fb{
+  height: 30px;
+  width: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.social-media-insta{
+  height: 30px;
+  width: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.social-media-tw{
+  height: 30px;
+  width: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }

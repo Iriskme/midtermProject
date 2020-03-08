@@ -1,0 +1,37 @@
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-color: #0e2433;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+h1{
+  text-align: left;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1cm;
+}
+.font-weight-light{
+  margin-top: 10%;
+  font-size: 8rem;
+  color: aliceblue;
+}
+.font-second{
+  color: #fec994;
+}
+.font-third{
+  color: #fed9c9;
+}
+.font-fourth{
+  color: #c1e1d2;
+}
+.lead{
+  text-align: left;
+  color: whitesmoke;
+}
+.img{
+  float: right;
+  height: 10rem;
+
+}

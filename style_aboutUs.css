@@ -1,0 +1,136 @@
+header {
+    text-align: top;
+    background-image: url(img/header-aboutUs.jpg);
+    background-position: 100% 100%;
+    padding-top: 20rem;
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.lead{
+  color: whitesmoke;
+  font-size: 3rem;
+  font-family: Impact, 'Arial Narrow', sans-serif;
+  font-stretch: wider;
+}
+
+.p-top{
+  padding-right: 10rem;
+  padding-left: 10rem;
+  padding-top: 3rem;
+  font-size: 14pt;
+  line-height: 1.8rem;
+  text-align: left;
+  color: black;
+}
+p{
+  padding-right: 10rem;
+  padding-left: 10rem;
+  text-align: center;
+  font-family: sans-serif bold;
+  font-size: 24pt;
+  line-height: 2.5rem;
+  color: deeppink;
+}
+h6{
+  font-weight: bold;
+  padding-right: 10rem;
+  padding-left: 10rem;
+  padding-top: 3rem;
+}
+h1{
+  font-size: 2rem;
+  padding-right: 10rem;
+  padding-left: 10rem;
+  padding-top: 3rem;
+}
+h2{
+  padding-right: 10rem;
+  padding-left: 10rem;
+  color: deeppink;
+}
+.h2-top{
+  padding-right: 10rem;
+  padding-left: 10rem;
+  color: black;
+}
+.p-top2{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 10rem;
+  padding-left: 10rem;
+  font-size: 14pt;
+  line-height: 1.8rem;
+  text-align: left;
+  color: black;
+}
+.p-top3{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 10rem;
+  padding-left: 10rem;
+  font-size: 14pt;
+  line-height: 1.8rem;
+  text-align: left;
+  color: black;
+}
+.p-top4{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 10rem;
+  padding-left: 10rem;
+  font-size: 14pt;
+  line-height: 1.8rem;
+  text-align: left;
+  color: black;
+}
+footer{
+  background-color: #731458;
+}
+.pad{
+  padding-top: 40%;
+}
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
